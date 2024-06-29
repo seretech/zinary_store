@@ -1,0 +1,41 @@
+name: zinary
+description: "Zinary Assessment Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.4.1 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.6
+  dio: ^5.4.0
+  get_storage: ^2.1.1
+  animated_snack_bar: ^0.3.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^3.0.0
+
+flutter:
+
+  uses-material-design: true
+
+  fonts:
+    - family: Satoshi
+      fonts:
+        - asset: fonts/Satoshi_Black.otf
+        - asset: fonts/Satoshi_BlackItalic.otf
+        - asset: fonts/Satoshi_Bold.otf
+        - asset: fonts/Satoshi_BoldItalic.otf
+        - asset: fonts/Satoshi_Italic.otf
+        - asset: fonts/Satoshi_Light.otf
+        - asset: fonts/Satoshi_LightItalic.otf
+        - asset: fonts/Satoshi_Medium.otf
+        - asset: fonts/Satoshi_MediumItalic.otf
+        - asset: fonts/Satoshi_Regular.otf
